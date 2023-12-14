@@ -1,0 +1,182 @@
+.bg-icon2 {
+    position: absolute;
+    top: 57px;
+    left: 426px;
+    width: 723px;
+    height: 926px;
+    object-fit: cover;
+  }
+  .shadow-square2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 18px;
+    background-color: #fff;
+    width: 578px;
+    height: 667px;
+  }
+  .lets-sign-you {
+    position: absolute;
+    top: 54px;
+    left: 160px;
+    font-size: 37px;
+    text-align: center;
+  }
+  .welcome-back {
+    margin: 0;
+  }
+  .welcome-back-container {
+    position: absolute;
+    top: 114px;
+    left: 154px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .shadow-06-child1,
+  .shadow-06-child2,
+  .shadow-06-child4 {
+    position: absolute;
+    top: 235px;
+    left: 121px;
+    border-radius: 5px;
+    border: 0.6px solid #8e8383;
+    box-sizing: border-box;
+    width: 342px;
+    height: 49px;
+  }
+  .shadow-06-child2,
+  .shadow-06-child4 {
+    top: 294px;
+  }
+  .shadow-06-child4 {
+    top: 397px;
+    background-color: #f48a01;
+    cursor: pointer;
+  }
+  .email-phone1 {
+    position: absolute;
+    top: 250px;
+    left: 135px;
+    color: #555454;
+  }
+  .span1 {
+    font-family: Outfit;
+  }
+  .register-now {
+    color: #000;
+  }
+  .dont-have-an-container {
+    position: absolute;
+    top: 588px;
+    left: 156px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 272px;
+    height: 34px;
+    cursor: pointer;
+    color: #555454;
+  }
+  .password1 {
+    position: absolute;
+    top: 309px;
+    left: 135px;
+    color: #555454;
+  }
+  .forgot-password {
+    position: absolute;
+    top: 353px;
+    left: 322px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .or,
+  .sign-in1 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .sign-in1 {
+    top: 410px;
+    left: 266px;
+    color: #fff;
+  }
+  .or {
+    top: 465px;
+    left: 284px;
+  }
+  .shadow-06-child5,
+  .vector-icon {
+    position: absolute;
+    top: 479.5px;
+    left: 130.5px;
+    max-height: 100%;
+    width: 147.5px;
+    object-fit: cover;
+  }
+  .shadow-06-child5 {
+    top: 480px;
+    left: 307px;
+  }
+  .google-logo-icon {
+    position: absolute;
+    top: 516px;
+    left: 228px;
+    width: 23px;
+    height: 23px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .vector-icon1 {
+    height: 3.9%;
+    width: 3.11%;
+    top: 77.06%;
+    right: 47.75%;
+    bottom: 19.04%;
+    left: 49.13%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .hide-1-icon1,
+  .vector-icon1,
+  .vector-icon2 {
+    position: absolute;
+    object-fit: cover;
+  }
+  .vector-icon2 {
+    height: 4.24%;
+    width: 3.98%;
+    top: 76.91%;
+    right: 38.06%;
+    bottom: 18.85%;
+    left: 57.96%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .hide-1-icon1 {
+    top: 310px;
+    left: 431px;
+    width: 20px;
+    height: 20px;
+  }
+  .shadow-062 {
+    position: absolute;
+    top: 158px;
+    left: 452px;
+    box-shadow: 0 32px 72px rgba(20, 20, 43, 0.24);
+    width: 578px;
+    height: 667px;
+  }
+  .desktop-sign-in {
+    position: relative;
+    background-color: #fafafc;
+    width: 100%;
+    height: 982px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Outfit;
+  }
+  

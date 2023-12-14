@@ -1,0 +1,158 @@
+.bg-icon {
+    position: absolute;
+    top: 49px;
+    left: 368px;
+    width: 723px;
+    height: 926px;
+    object-fit: cover;
+  }
+  .shadow-06,
+  .shadow-square {
+    position: absolute;
+    width: 624px;
+    height: 721px;
+  }
+  .shadow-square {
+    top: 0;
+    left: 0;
+    border-radius: 18px;
+    background-color: #fff;
+  }
+  .shadow-06 {
+    top: 130px;
+    left: 444px;
+    box-shadow: 0 32px 72px rgba(20, 20, 43, 0.24);
+  }
+  .lets-register {
+    margin: 0;
+  }
+  .lets-register-account-container {
+    position: absolute;
+    top: 155px;
+    left: calc(50% - 108px);
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+  }
+  .desktop-sign-up-child,
+  .desktop-sign-up-inner,
+  .desktop-sign-up-item {
+    position: absolute;
+    top: 345px;
+    left: 590px;
+    border-radius: 5px;
+    border: 0.6px solid #8e8383;
+    box-sizing: border-box;
+    width: 342px;
+    height: 49px;
+  }
+  .desktop-sign-up-inner,
+  .desktop-sign-up-item {
+    top: 404px;
+  }
+  .desktop-sign-up-inner {
+    top: 463px;
+  }
+  .desktop-sign-up-child1 {
+    top: 522px;
+    border: 0.6px solid #8e8383;
+    box-sizing: border-box;
+  }
+  .desktop-sign-up-child1,
+  .desktop-sign-up-child2,
+  .desktop-sign-up-child7 {
+    position: absolute;
+    left: 590px;
+    border-radius: 5px;
+    width: 342px;
+    height: 49px;
+  }
+  .desktop-sign-up-child2 {
+    top: 581px;
+    border: 0.6px solid #8e8383;
+    box-sizing: border-box;
+  }
+  .desktop-sign-up-child7 {
+    top: 679px;
+    background-color: #f48a01;
+    cursor: pointer;
+  }
+  .name1 {
+    position: absolute;
+    top: 360px;
+    left: 604px;
+    mix-blend-mode: difference;
+  }
+  .span {
+    font-family: Outfit;
+  }
+  .login {
+    color: #000;
+  }
+  .already-have-an-container {
+    position: absolute;
+    top: 758px;
+    left: calc(50% - 118px);
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 236px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .email1,
+  .last-name,
+  .password,
+  .phone {
+    position: absolute;
+    top: 419px;
+    left: 604px;
+    mix-blend-mode: difference;
+  }
+  .email1,
+  .password,
+  .phone {
+    top: 478px;
+  }
+  .email1,
+  .password {
+    top: 537px;
+  }
+  .password {
+    top: 596px;
+  }
+  .sign-in {
+    position: absolute;
+    top: 692px;
+    left: calc(50% - 27px);
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .hello-user-container {
+    position: absolute;
+    top: 251px;
+    left: calc(50% - 108px);
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+  }
+  .hide-1-icon {
+    position: absolute;
+    top: 596px;
+    left: 895px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .desktop-sign-up {
+    position: relative;
+    background-color: #fafafc;
+    width: 100%;
+    height: 982px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #555454;
+    font-family: Outfit;
+  }
+  

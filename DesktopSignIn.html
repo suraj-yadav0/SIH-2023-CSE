@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./DesktopSignIn.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-sign-in">
+      <img class="bg-icon2" alt="" src="./public/bg@2x.png" />
+
+      <div class="shadow-062">
+        <div class="shadow-square2"></div>
+        <b class="lets-sign-you">Lets Sign you in</b>
+        <div class="welcome-back-container">
+          <p class="welcome-back">Welcome Back ,</p>
+          <p class="welcome-back">You have been missed</p>
+        </div>
+        <div class="shadow-06-child1"></div>
+        <div class="shadow-06-child2"></div>
+        <div class="shadow-06-child2"></div>
+        <div class="shadow-06-child4" id="rectangle3"></div>
+        <div class="email-phone1">Email ,phone & username</div>
+        <div class="dont-have-an-container" id="dontHaveAn">
+          <span>Don’t have an account ? </span>
+          <span class="register-now">
+            <b>Register Now</b>
+            <span class="span1"> </span>
+          </span>
+        </div>
+        <div class="password1">Password</div>
+        <div class="forgot-password" id="forgotPassword">Forgot Password ?</div>
+        <div class="sign-in1">Sign in</div>
+        <div class="or">or</div>
+        <img class="vector-icon" alt="" src="./public/vector-1@2x.png" />
+
+        <img class="shadow-06-child5" alt="" src="./public/vector-2@2x.png" />
+
+        <img
+          class="google-logo-icon"
+          alt=""
+          src="./public/google-logo@2x.png"
+        />
+
+        <img class="vector-icon1" alt="" src="./public/vector@2x.png" />
+
+        <img class="vector-icon2" alt="" src="./public/vector@2x.png" />
+
+        <img class="hide-1-icon1" alt="" src="./public/hide-1@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var rectangle3 = document.getElementById("rectangle3");
+      if (rectangle3) {
+        rectangle3.addEventListener("click", function (e) {
+          // Please sync "desktop dashboard" to the project
+        });
+      }
+      
+      var dontHaveAn = document.getElementById("dontHaveAn");
+      if (dontHaveAn) {
+        dontHaveAn.addEventListener("click", function (e) {
+          window.location.href = "./DesktopSignUp.html";
+        });
+      }
+      
+      var forgotPassword = document.getElementById("forgotPassword");
+      if (forgotPassword) {
+        forgotPassword.addEventListener("click", function (e) {
+          window.location.href = "./DesktopForgotPasswordReset.html";
+        });
+      }
+      </script>
+  </body>
+</html>

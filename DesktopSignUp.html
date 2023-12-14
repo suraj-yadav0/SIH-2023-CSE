@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./DesktopSignUp.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-sign-up">
+      <img class="bg-icon" alt="" src="./public/bg@2x.png" />
+
+      <div class="shadow-06">
+        <div class="shadow-square"></div>
+      </div>
+      <b class="lets-register-account-container">
+        <p class="lets-register">Lets Register</p>
+        <p class="lets-register">Account</p>
+      </b>
+      <div class="desktop-sign-up-child"></div>
+      <div class="desktop-sign-up-item"></div>
+      <div class="desktop-sign-up-inner"></div>
+      <div class="desktop-sign-up-child1"></div>
+      <div class="desktop-sign-up-child2"></div>
+      <div class="desktop-sign-up-item"></div>
+      <div class="desktop-sign-up-inner"></div>
+      <div class="desktop-sign-up-child1"></div>
+      <div class="desktop-sign-up-child2"></div>
+      <div class="desktop-sign-up-child7" id="rectangle9"></div>
+      <div class="name1">Name</div>
+      <div class="already-have-an-container" id="alreadyHaveAn">
+        <span>Already have an account ? </span>
+        <span class="login">
+          <b>Login</b>
+          <span class="span"> </span>
+        </span>
+      </div>
+      <div class="last-name">last name</div>
+      <div class="phone">Phone</div>
+      <div class="email1">Email</div>
+      <div class="password">Password</div>
+      <div class="sign-in">Sign in</div>
+      <div class="hello-user-container">
+        <p class="lets-register">Hello user , you have</p>
+        <p class="lets-register">a greatful journey</p>
+      </div>
+      <img class="hide-1-icon" alt="" src="./public/hide-1@2x.png" />
+    </div>
+
+    <script>
+      var rectangle9 = document.getElementById("rectangle9");
+      if (rectangle9) {
+        rectangle9.addEventListener("click", function (e) {
+          window.location.href = "./DesktopSignIn.html";
+        });
+      }
+      
+      var alreadyHaveAn = document.getElementById("alreadyHaveAn");
+      if (alreadyHaveAn) {
+        alreadyHaveAn.addEventListener("click", function (e) {
+          window.location.href = "./DesktopSignIn.html";
+        });
+      }
+      </script>
+  </body>
+</html>
